@@ -9,10 +9,3 @@ if (isNaN(firstArgument)) {
         console.log('X'.repeat(firstArgument));
     }
 }
-
-
-// Example using process.stdout.write()
-process.stdout.write("This will be on the same line.");
-process.stdout.write("This continues on the same line.\n"); // Add \n manually for a newline
-
-console.log("This will start on a new line and add its own newline.");
