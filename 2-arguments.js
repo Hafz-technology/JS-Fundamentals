@@ -1,10 +1,10 @@
-let numberOfArguments = 2 ;
-if (numberOfArguments === 0) {
+let numberOfArguments = ["khalil", 'ahmed'] ;
+if (numberOfArguments.length === 0) {
     console.log('No argument');
 }
-else if (numberOfArguments === 1) {
+else if (numberOfArguments.length === 1) {
     console.log('Argument found');  
-} else if (numberOfArguments > 1) {
+} else if (numberOfArguments.length > 1) {
     console.log('Arguments found')
 }
 
