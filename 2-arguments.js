@@ -1,4 +1,4 @@
-let numberOfArguments = ["khalil", 'ahmed'] ;
+let numberOfArguments   ;
 if (numberOfArguments.length == 0) {
     console.log('No argument');
 }
