@@ -1,10 +1,15 @@
-let numberOfArguments   ;
-if (numberOfArguments.length == 0) {
+const argument = process.argv;
+let numberOfArguments = argument.length -2;
+
+
+
+
+if (numberOfArguments == 0) {
     console.log('No argument');
 }
-else if (numberOfArguments.length == 1) {
+else if (numberOfArguments == 1) {
     console.log('Argument found');  
-} else if (numberOfArguments.length > 1) {
+} else if (numberOfArguments > 1) {
     console.log('Arguments found')
 }
 
